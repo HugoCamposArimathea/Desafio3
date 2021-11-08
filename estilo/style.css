@@ -29,14 +29,39 @@ h1, h2, h3, h4, h5, h6 {
 .container-header {
     background-color: var(--bgSite);
     width: 100vw;
-    height: 50vh;
+    height: 69vh;
 }
 .container-cabeçalho {
-    width: 94vw;
+    font-size: 1.3em;
+    width: 90vw;
+    margin: auto;
+    height: 100%;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.container-text {
+.container-img img {
+   height: 300px; 
+}
+.container-text h1 {
+    margin-bottom: 5%;
+    width: 45%;
+}
+.container-text p {
+    margin-bottom: 5%;
     text-align: left;
+    line-height: 2.5rem;
+    width: 45%;
+    word-spacing: 0.5rem;
+    line-height: 1.5em;
+}
+.container-text button {
+    border-radius: 5px;
+    background-color: var(--buttonColor);
+    border: none;
+    width: 140px;
+    height: 40px;
+    color: white;
 }
 body {
     background-color: rgba(128, 128, 128, 0.158);
@@ -46,7 +71,7 @@ body {
     justify-content: space-around;
     flex-wrap: wrap;
     margin: 3%;
-    margin-top: 15%;
+    margin-top: 10%;
 }
 .item {
     display: flex;
@@ -89,4 +114,8 @@ body {
 }
 .cor6 {
     background-color: var(--buttonColor);
+}
+aside {
+    text-align: center;
+    background-color: var(--bgSite);
 }
