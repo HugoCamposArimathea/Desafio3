@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Merriweather', serif;
 }
 :root {
     --bgSite: #d7d4ff;
@@ -27,9 +26,10 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 .container-header {
+    font-family: 'Merriweather', serif;
     background-color: var(--bgSite);
     width: 100vw;
-    height: 69vh;
+    height: max(463.6px, 80vh);
 }
 .container-cabeçalho {
     font-size: 1.3em;
@@ -39,21 +39,28 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 .container-img img {
-   height: 300px; 
+    height: max(300px, 20vw); 
+    display: block;
+    max-width: 100%;
+    margin: auto;
 }
 .container-text h1 {
     margin-bottom: 5%;
-    width: 45%;
+    width: max(43%, 330px);
+    font-size: max(32px, 3vw);
 }
 .container-text p {
     margin-bottom: 5%;
     text-align: left;
     line-height: 2.5rem;
-    width: 45%;
+    width: max(45%, 330px);
     word-spacing: 0.5rem;
     line-height: 1.5em;
+    font-size: max(21px, 1vw);
+    color: rgba(0, 0, 0, 0.466);
 }
 .container-text button {
     border-radius: 5px;
@@ -64,16 +71,20 @@ h1, h2, h3, h4, h5, h6 {
     color: white;
 }
 body {
+    font-family: 'Merriweather', serif;
     background-color: rgba(128, 128, 128, 0.158);
 }
 .container-flex {
+    font-family: 'Merriweather', serif;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     margin: 3%;
     margin-top: 10%;
+    max-width: 1380px;
 }
 .item {
+    font-family: 'Merriweather', serif;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -89,6 +100,9 @@ body {
     text-align: justify;
     width: 80%;
     height: 40%;
+}
+.text p {
+    color: rgba(0, 0, 0, 0.466);
 }
 .text h2 {
     margin-bottom: 5%;
@@ -116,6 +130,50 @@ body {
     background-color: var(--buttonColor);
 }
 aside {
+    font-family: 'Merriweather', serif;
     text-align: center;
     background-color: var(--bgSite);
+    width: 100vw;
+    height: 80vh;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+.contato {
+    width: 100%;
+    max-width: 400px;
+}
+.contato h3 {
+    font-size: 20pt;
+    margin: 1.5em;
+    color: rgba(0, 0, 0, 0.466);
+}
+.form {
+    display: flex;
+    flex-direction: column;
+}
+.field {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    font-size: 12pt;
+}
+.mensagem {
+    height: 120px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    font-size: 12pt;
+}
+.enviar {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid var(--buttonColor);
+    border-radius: 5px;
+    font-size: 12pt;
+    background-color: var(--buttonColor);
+    color: white;
 }
