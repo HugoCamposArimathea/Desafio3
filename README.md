@@ -4,6 +4,14 @@
 <hr>
 
 ### 📸 Algumas imagens do projeto: 
+<div style="display: flex; flex-direction: row; align-items: center;">
+ <img src="image/foto1.png" alt="Foto do projeto" style="height: 300px; width: 600px;">
+ <img src="image/responsividade1.png" alt="Foto do projeto" style="height: 300px; width: 220px;">
+ <img src="image/foto2.png" alt="Foto do projeto" style="height: 300px; width: 600px;">
+ <img src="image/reponsividade2.png" alt="Foto do projeto" style="height: 300px; width: 220px;">
+ <img src="image/foto3.png" alt="Foto do projeto" style="height: 300px; width: 600px;">
+ <img src="image/responsividade3.png" alt="Foto do projeto" style="height: 300px; width: 220px;">
+</div>
 
 
 ### Caso queira dar uma olhada: <a href="https://hugocamposarimathea.github.io/Desafio3/" alt="Link da página">Clique aqui</a>
