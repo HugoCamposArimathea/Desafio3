@@ -43,17 +43,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 .container-img img {
     height: max(300px, 20vw); 
-    display: block;
     max-width: 100%;
+    display: block;
     margin: auto;
 }
+.container-text {
+    width: 40%;
+}
 .container-text h1 {
-    margin-bottom: 5%;
+    margin: 5% 0;
     width: max(43%, 330px);
     font-size: max(32px, 3vw);
 }
 .container-text p {
-    margin-bottom: 5%;
+    margin: 5% 0;
     text-align: left;
     line-height: 2.5rem;
     width: max(45%, 330px);
